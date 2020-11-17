@@ -39,7 +39,10 @@ namespace Xamarin.CommunityToolkit.Sample.ViewModels.Views
 				"Customize the tabs width"),
 
 			new SectionModel(typeof(NoContentPage), "Tab without Content",
-				"Only the TabStrip is visible")
+				"Only the TabStrip is visible"),
+
+			new SectionModel(typeof(ContentChangingTabsPage), "Tab with Changing Content",
+				"Tab changes content dynamically")
 		};
 	}
 }
